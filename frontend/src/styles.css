@@ -1,0 +1,110 @@
+/* Global */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Auth Pages */
+.auth-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-card {
+  background: #ffffff;
+  padding: 30px;
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.auth-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.auth-card button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-card p {
+  text-align: center;
+  margin-top: 15px;
+  color: #1976d2;
+  cursor: pointer;
+}
+
+/* Dashboard */
+.dashboard {
+  padding: 20px;
+}
+
+/* Expense Form */
+.expense-form input {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+.expense-form button {
+  padding: 8px 12px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Table Centering */
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.expense-table {
+  width: 90%;
+  max-width: 900px;
+  background: white;
+  border-collapse: collapse;
+}
+
+.expense-table th,
+.expense-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.expense-table th {
+  background-color: #f1f1f1;
+}
+
+/* Chart Centering */
+.chart-wrapper {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart {
+  width: 320px;
+  height: 320px;
+}
